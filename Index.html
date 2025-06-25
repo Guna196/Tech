@@ -1,0 +1,83 @@
+# Tech
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-F81T1NPZ72"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-F81T1NPZ72');
+</script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Products Landing Page</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Font - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f3f4f6; /* Light gray background */
+        }
+    </style>
+</head>
+<body class="flex flex-col min-h-screen">
+    <!-- Header Section -->
+    <header class="bg-gray-800 text-white p-6 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-3xl font-bold rounded-md">TechGadget Store</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-gray-300 rounded-md">Home</a></li>
+                    <li><a href="#products" class="hover:text-gray-300 rounded-md">Products</a></li>
+                    <li><a href="#" class="hover:text-gray-300 rounded-md">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content - Product Showcase -->
+    <main id="products" class="container mx-auto p-8 flex-grow">
+        <h2 class="text-4xl font-extrabold text-center text-gray-900 mb-12 rounded-md">Our Latest Innovations</h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+            <!-- Product 1: Quantum Processor X1 -->
+            <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center transform transition duration-300 hover:scale-105">
+                <img src="https://placehold.co/300x200/4F46E5/FFFFFF?text=Quantum+Processor+X1" alt="Quantum Processor X1" class="w-full h-auto object-cover mb-6 rounded-lg shadow-md">
+                <h3 class="text-3xl font-semibold text-gray-800 mb-3 rounded-md">Quantum Processor X1</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Unleash unprecedented computing power with our revolutionary Quantum Processor X1. Engineered for speed and efficiency, it redefines the limits of digital processing. Perfect for high-performance computing and future-proof systems.
+                </p>
+                <div class="text-4xl font-bold text-indigo-700 mb-6 rounded-md">$1,299.99</div>
+                <a href="checkout.html?product=quantum-processor-x1" class="bg-indigo-600 hover:bg-indigo-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:-translate-y-1">
+                    Buy Now
+                </a>
+            </div>
+
+            <!-- Product 2: NeuralLink Headset Pro -->
+            <div class="bg-white rounded-xl shadow-lg p-8 flex flex-col items-center text-center transform transition duration-300 hover:scale-105">
+                <img src="https://placehold.co/300x200/10B981/FFFFFF?text=NeuralLink+Headset+Pro" alt="NeuralLink Headset Pro" class="w-full h-auto object-cover mb-6 rounded-lg shadow-md">
+                <h3 class="text-3xl font-semibold text-gray-800 mb-3 rounded-md">NeuralLink Headset Pro</h3>
+                <p class="text-gray-600 mb-6 leading-relaxed">
+                    Experience seamless brain-computer interface with the NeuralLink Headset Pro. Dive into immersive virtual realities or boost your productivity with intuitive thought-controlled interactions.
+                </p>
+                <div class="text-4xl font-bold text-green-700 mb-6 rounded-md">$899.99</div>
+                <a href="checkout.html?product=neurallink-headset-pro" class="bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-8 rounded-full shadow-lg transition duration-300 transform hover:-translate-y-1">
+                    Buy Now
+                </a>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white p-6 mt-12">
+        <div class="container mx-auto text-center text-gray-400 rounded-md">
+            &copy; 2025 TechGadget Store. All rights reserved.
+        </div>
+    </footer>
+</body>
+</html>
